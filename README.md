@@ -1,12 +1,16 @@
+Here’s an updated `README.md` file with your GitHub repository URL included:
+
+---
+
 # AI Job Assistant
 
-AI Job Assistant is a Streamlit-based application that uses large language models to help users tailor their CVs and optimize them for specific job descriptions. It provides features like identifying skill gaps, analyzing CVs, and generating ATS-optimized recommendations.
+AI Job Assistant is a Streamlit-based application that leverages large language models to help users tailor their CVs and optimize them for specific job descriptions. It provides features like identifying skill gaps, analyzing CVs, and generating ATS-optimized recommendations.
 
 ---
 
 ## Features
 
-- **Job Industry Identification**: Extracts top three relevant industries based on the CV content.
+- **Job Industry Identification**: Extracts the top three relevant industries based on the CV content.
 - **Job Description Analysis**: Summarizes job descriptions and provides insights.
 - **CV Review**: Tailors CV content to align with the job description.
 - **Skill Gap Analysis**: Identifies missing or underemphasized skills in the CV.
@@ -20,8 +24,8 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd AI-Job-Assistant
+   git clone https://github.com/EkalavyaPrasad/CV-Job-Assistant
+   cd CV-Job-Assistant
    ```
 
 2. Set up a virtual environment (recommended):
@@ -95,10 +99,21 @@ Ensure you have the following installed:
 
 ---
 
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
 ## Contributing
 
 Feel free to fork the repository, make changes, and submit pull requests. Contributions are welcome!
 
 ---
 
+Check out the repository [here](https://github.com/EkalavyaPrasad/CV-Job-Assistant).  
 Happy Job Hunting! 🚀
+
+--- 
+
+You can place this `README.md` file in the root directory of your repository.
