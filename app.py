@@ -34,45 +34,6 @@ def get_industry(jd):
 
 
 
-user_info = """Ekalavya Prasad
-
-• +44 7774732797 • ekalavyaprasad2709@gmail.com • www.linkedin.com/in/ekalavya-prasad •
-
-Credit risk Analyst with strong financial modelling, forecasting, and cross-functional collaboration expertise. Expertise in financial modelling, forecasting, and report generation using Excel, Python, and SQL, with hands-on experience leveraging data for strategic decision-making. Top academic performance in Financial Management MSc at the University of Birmingham with a distinction grade and practical experience in credit risk modelling and automated reporting processes using AI. Part-qualified CIMA with a proven ability to deliver insights in high-level meetings and contribute to process improvements in dynamic, multi-national environments.
-
-TECHNICAL SKILLS
-Python: Applied Python for data analysis, developing AI models, and LLM-based software, demonstrating advanced proficiency.
-MS Excel: Advanced proficiency with Macros, and functions. Used for preparing financial reports and modeling cashflows.
-MS Word and PowerPoint: Prepared numerous reports, presentations and memos using the tools. Advanced proficiency. 
-SQL: Utilised to extract, manipulate, and analyse large datasets during internships.
-Project Management: Coordinated AI research workshops using Agile methodology, managed cross-functional teams to deliver projects on time, and presented strategic insights to stakeholders using PowerPoint and data dashboards. 
-
-EDUCATION
-MSc Financial Management (Distinction) • University of Birmingham                                                        2023 - 2024
-Key Modules
-•	International Treasury Management: Assessed International Forex and Credit risks. prepared IFRS-compliant reports. 
-•	Risk Analysis and Management: Applied statistical methods for risk modelling and forecasting using Python and Stata.
-Dissertation: "Credit Risk Modelling using Deep Learning & AI" – Achieved top marks in the class with a 1st rank for this dissertation.
-•	Developed and implemented credit risk deep learning models; skilled in automating processes to streamline financial insights and reporting for strategic decision-making.  Live Demo
-Research Project: Worked Autonomously to Develop a web application that fully automates Moody’s Credit Rating process using a combination of machine learning and natural language processing (NLP) techniques.
-•	Certifications: Studying towards CIMA (Part-qualified), Certificate of Treasury (Part-qualified)
-Bachelor of Commerce (First Class Honors) •   Sri Sathya Sai Institute of Higher Learning                     2020-2023
-Key Modules:
-•	Advanced Accounting: Mastered advanced global accounting standards and applied advanced Excel skills and financial modelling to business scenarios.
-Research Project: Portfolio Management and Risk modelling using Python, excel and Quantopian.
-
-EXPERIENCE & EXTRACURRICULAR
-Corporate Analyst Development Program • J.P Morgan Chase & Co.  (Virtual Experience )   Aug 2024 – Oct 2024
-•	Led data analysis and validation on a 1,500-row M&A dataset, assessing potential acquisition leads and presenting key findings to stakeholders to support strategic decision-making. 
-•	Crafted a storytelling-driven presentation using PowerPoint to communicate process improvements to stakeholders.
-Library Shaper • University of Birmingham                                                                                   Nov 2023 – Aug 2024
-•	Managed cross-functional teams, Coordinating with student volunteers and staff to ensure successful campaign execution.
-•	Coordinated an AI research workshop project using Agile principles, overseeing all stages from planning and content development to execution. Experience using tools like PowerPoint and data dashboards to present strategic insights.
-LANGUAGES 
-English: Fluent
-Hindi: Fluent
-French: Intermediate Proficiency, achieved a triple diploma (awarded by the Alliance française)	
-"""
 
 
 
@@ -98,7 +59,7 @@ with st.sidebar:
     if check_models(required_models) == False:
         st.spinner('Downloading models..')
         
-    cv_info = st.text_area('Paste your CV...',user_info, height=500)
+    cv_info = st.text_area('Paste your CV...', height=500)
     st.info('According to your CV these are your top 3 industries, Feel free to change them.')
     info = get_industry(cv_info)
     ind_1 = st.text_input('1st Job area', info['ind1'])
