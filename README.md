@@ -1,7 +1,3 @@
-Here’s an updated `README.md` file with your GitHub repository URL included:
-
----
-
 # AI Job Assistant
 
 AI Job Assistant is a Streamlit-based application that leverages large language models to help users tailor their CVs and optimize them for specific job descriptions. It provides features like identifying skill gaps, analyzing CVs, and generating ATS-optimized recommendations.
